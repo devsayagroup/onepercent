@@ -110,7 +110,7 @@ export default function RoomsSection() {
   return (
     <section className="relative w-full bg-stone-900 text-white py-20 md:py-28">
       <div className="mx-auto px-6 md:px-14">
-        <h2 className="text-left text-3xl md:text-5xl font-style font-light tracking-[0.06em] neon-accent mb-12 md:mb-16">
+        <h2 className="text-left md:text-center text-4xl md:text-5xl font-style font-light tracking-[0.06em] neon-accent mb-12 md:mb-16">
           Explore Our Rooms
         </h2>
 

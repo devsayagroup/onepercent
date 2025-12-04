@@ -120,7 +120,7 @@ export default function Header() {
       </motion.div>
 
       {/* Mobile Header */}
-      <div className="md:hidden flex items-center justify-between px-6 py-6 backdrop-blur-sm">
+      <div className="md:hidden flex items-center justify-between px-6 py-4 backdrop-blur-sm">
         <Link href="/">
           <Image src="/logo/white.png" height={50} width={50} alt="One Percent" />
         </Link>
