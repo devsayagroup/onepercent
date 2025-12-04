@@ -1,0 +1,73 @@
+"use client";
+
+import { motion, useScroll, useTransform } from "framer-motion";
+import Image from "next/image";
+import Grain from "@/components/ui/Grain";
+
+export default function HeroSection() {
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 300], [0, 100]);
+
+  return (
+    <section className="relative w-full h-screen overflow-hidden bg-black text-white flex items-center justify-center">
+        <motion.div style={{ y }} className="absolute inset-0">
+            <Image
+            src="/room/classic1.jpg" 
+            alt="1% Lounge Background"
+            fill
+            priority
+            className="object-cover "
+            />
+            <Grain/>
+        </motion.div>
+        <div className="absolute inset-0 bg-black/40" />
+
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+            className="relative z-10 max-w-xl px-6 text-center"
+        >
+            <h1 className="text-4xl md:text-7xl font-light font-style tracking-[0.06em] leading-none mb-6 neon-accent">
+            Enter the circle of 1%
+            </h1>
+
+            <p className="text-sm md:text-sm leading-relaxed opacity-80">
+            Step into a space shaped for people who appreciate calm, beauty, and a higher standard of taste.
+            </p>
+        </motion.div>
+
+        <motion.button
+        onClick={() => {
+            const section = document.getElementById("about");
+            section?.scrollIntoView({ behavior: "smooth" });
+        }}
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5, ease: "easeOut", delay: 1.2 }}
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
+        >
+            <motion.div
+                animate={{ y: [0, 10, 0] }}
+                transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+                className="opacity-70 hover:opacity-100 transition"
+            >
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="52"
+                height="52"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="drop-shadow-lg"
+                >
+                <path d="M6 9l6 6 6-6" />
+                </svg>
+            </motion.div>
+        </motion.button>
+    </section>
+  );
+}
