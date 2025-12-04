@@ -3,6 +3,7 @@ import { Cinzel, Poppins} from "next/font/google";
 import "@/styles/globals.css";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const styleFont = Cinzel({
   variable: "--font-style",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Header/>
         <SmoothScroll>{children}</SmoothScroll>
+        <Footer/>
       </body>
     </html>
   );

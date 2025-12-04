@@ -78,9 +78,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navItems = [
-  { label: "About", href: "/about" },
-  { label: "Rooms", href: "/rooms" },
-  { label: "Members", href: "/members" },
+  { label: "About", href: "/#about" },
+  { label: "Rooms", href: "/#room" },
+  { label: "Members", href: "/#member" },
 ];
 
 export default function Header() {
