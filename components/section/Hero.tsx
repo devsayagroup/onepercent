@@ -45,7 +45,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5, ease: "easeOut", delay: 1.2 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
+        className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
         >
             <motion.div
                 animate={{ y: [0, 10, 0] }}
