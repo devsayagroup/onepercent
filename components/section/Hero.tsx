@@ -26,7 +26,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
-            className="relative z-10 max-w-xl px-6 text-center"
+            className="relative z-10 max-w-lg md:max-w-xl px-6 text-center"
         >
             <h1 className="text-4xl md:text-7xl font-light font-style tracking-[0.06em] leading-none mb-6 neon-accent">
             Enter the circle of 1%

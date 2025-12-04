@@ -120,7 +120,7 @@ export default function RoomsSection() {
           grid-cols-1 
           sm:grid-cols-2
           md:grid-cols-3 
-          gap-4 md:gap-6 
+          gap-8 
           auto-rows-[220px] 
           sm:auto-rows-[280px]
           md:auto-rows-[360px]
