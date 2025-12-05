@@ -100,7 +100,7 @@ export default function Header() {
             <Link
               key={item.label}
               href={item.href}
-              className="relative text-xs tracking-widest uppercase opacity-80 hover:opacity-100 transition group"
+              className="relative text-xs tracking-widest font-style uppercase opacity-80 hover:opacity-100 transition group"
             >
               {item.label}
               <span className="absolute left-0 -bottom-1 h-[1px] w-0 bg-white transition-all duration-300 group-hover:w-full" />
@@ -112,7 +112,7 @@ export default function Header() {
           <Image src="/logo/white.png" height={60} width={60} alt="One Percent" />
         </Link>
 
-        <div className="flex items-center gap-6 text-xs tracking-widest">
+        <div className="flex items-center gap-6 text-xs font-style tracking-widest">
           <Link href="tel:+33133150505" className="opacity-80 hover:opacity-100 transition">
             CALL US
           </Link>

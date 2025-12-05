@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -30,11 +31,13 @@ export default function Footer() {
           {/* Location */}
           <div>
             <h4 className="text-sm tracking-widest opacity-80 uppercase font-style mb-4">Location</h4>
-            <p className="text-sm opacity-70 leading-relaxed">
-              1% Lounge<br />
-              Entertainment District, PIK 2<br />
-              Jakarta, Indonesia
-            </p>
+            <Link href="https://share.google/2VZqbUZNj7tGtHgn0" target="_blank">
+                <p className="text-sm opacity-70 leading-relaxed">
+                1% Lounge<br />
+                Entertainment District, PIK 2<br />
+                Jakarta, Indonesia
+                </p>
+            </Link>
           </div>
 
           {/* Contact */}

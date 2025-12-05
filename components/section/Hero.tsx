@@ -26,14 +26,14 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
-            className="relative z-10 max-w-sm md:max-w-xl px-6 text-center"
+            className="relative z-10  md:max-w-xl px-6 text-center"
         >
             <h1 className="text-5xl md:text-7xl font-light font-style tracking-[0.06em] leading-none mb-6 neon-accent">
             Enter the circle of 1%
             </h1>
 
-            <p className="text-sm md:text-sm leading-relaxed opacity-80">
-            Step into a space shaped for people who appreciate calm, beauty, and a higher standard of taste.
+            <p className="text-sm w-[90%] md:w-[70%] mx-auto md:text-md leading-relaxed opacity-80">
+                Step into a space shaped for people who appreciate <span className="neon-accent opacity-100">calm, beauty, and a higher standard of taste</span>.
             </p>
         </motion.div>
 
