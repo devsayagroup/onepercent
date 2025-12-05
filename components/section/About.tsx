@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
 import Grain from "@/components/ui/Grain";
 
 export default function AboutSection() {
