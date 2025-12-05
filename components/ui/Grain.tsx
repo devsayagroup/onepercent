@@ -1,8 +1,10 @@
 import Image from "next/image";
 
-export default function Grain() {
+export default function Grain({ className = "" }) {
   return (
-    <div className="pointer-events-none fixed inset-0 z-[99] opacity-30 mix-blend-overlay">
+    <div
+      className={`pointer-events-none absolute inset-0 opacity-30 mix-blend-overlay ${className}`}
+    >
       <Image
         src="/grain.png"
         alt="grain texture"

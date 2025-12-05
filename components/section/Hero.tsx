@@ -18,7 +18,7 @@ export default function HeroSection() {
             priority
             className="object-cover "
             />
-            <Grain/>
+            {/* <Grain/> */}
         </motion.div>
         <div className="absolute inset-0 bg-black/40" />
 
@@ -28,7 +28,7 @@ export default function HeroSection() {
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="relative z-10  md:max-w-xl px-6 text-center"
         >
-            <h1 className="text-5xl md:text-7xl font-light font-style tracking-[0.06em] uppercase leading-none mb-6 neon-accent">
+            <h1 className="text-4xl md:text-7xl font-light font-style tracking-[0.06em] uppercase leading-[1.4] mb-4 neon-accent">
                 Enter the circle of 1%
             </h1>
 
