@@ -65,7 +65,7 @@ export default function RoomsSection() {
                 fill
                 className="
                   object-cover 
-                  md:grayscale 
+                  md:grayscale/2 
                   md:group-hover:grayscale-0 
                   transition-all 
                   duration-700 

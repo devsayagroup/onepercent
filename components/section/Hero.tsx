@@ -28,8 +28,8 @@ export default function HeroSection() {
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="relative z-10  md:max-w-xl px-6 text-center"
         >
-            <h1 className="text-5xl md:text-7xl font-light font-style tracking-[0.06em] leading-none mb-6 neon-accent">
-            Enter the circle of 1%
+            <h1 className="text-5xl md:text-7xl font-light font-style tracking-[0.06em] uppercase leading-none mb-6 neon-accent">
+                Enter the circle of 1%
             </h1>
 
             <p className="text-sm w-[90%] md:w-[70%] mx-auto md:text-md leading-relaxed opacity-80">

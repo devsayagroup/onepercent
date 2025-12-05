@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Left Section */}
         <div className="flex gap-4 md:gap-12  items-center">
             <Image src="/logo/white.png" height={100} width={100} alt="One Percent" />
-            <p className="text-sm md:text-md font-style neon-accent leading-relaxed max-w-xs">
+            <p className="text-sm md:text-md font-style neon-accent uppercase leading-relaxed max-w-xs">
                 Enter a world shaped for a rare circle. A space built for calm,
                 beauty, and refined taste.
             </p>
@@ -43,8 +43,8 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="text-sm tracking-widest opacity-80 uppercase font-style mb-4">Contact</h4>
-            <p className="text-sm opacity-70">+62 812-0000-0000</p>
-            <p className="text-sm opacity-70">info@onepercentlounge.com</p>
+            <p className="text-sm opacity-70">+62 812 0000 0000</p>
+            <p className="text-sm opacity-70">info@onepercentlounge.id</p>
           </div>
         </div>
       </div>

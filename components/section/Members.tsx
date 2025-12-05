@@ -69,7 +69,7 @@ export default function MemberSection() {
                 onClick={() => setOpenIndex(isOpen ? null : index)}
               >
                 <div>
-                  <h3 className="text-xl md:text-2xl font-light font-style tracking-wide">
+                  <h3 className="text-xl md:text-2xl font-light font-style uppercase tracking-wide">
                     {tier.name}
                   </h3>
                   <p className="text-sm opacity-60 mt-1">
