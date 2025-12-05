@@ -31,7 +31,7 @@ export default function Footer() {
 
                     <li>
                     <Link
-                        href="/#room"
+                        href="/#rooms"
                         className="hover:opacity-100 transition-opacity cursor-pointer block"
                     >
                         Rooms
@@ -40,7 +40,7 @@ export default function Footer() {
 
                     <li>
                     <Link
-                        href="/#member"
+                        href="/#members"
                         className="hover:opacity-100 transition-opacity cursor-pointer block"
                     >
                         Members

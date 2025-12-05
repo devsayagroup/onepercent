@@ -10,8 +10,8 @@ export default function AboutSection() {
 
   return (
     <section
-      id="about"
       className="relative w-full md:h-[80%] py-24 md:py-32 bg-stone-950 text-white flex items-center justify-center overflow-hidden"
+      id="about"
     >
       <Grain />
       <motion.div

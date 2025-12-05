@@ -53,7 +53,7 @@ export default function MemberSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="relative w-full bg-stone-950 text-white scroll-mt-10 py-24 px-6 md:px-14 border-t border-white/10" id="member">
+    <section className="relative w-full bg-stone-950 text-white scroll-mt-10 py-24 px-6 md:px-14 border-t border-white/10" id="members">
         <Grain className="z-10"/>
         <h2 className="text-left text-4xl md:text-5xl font-style font-light tracking-[0.06em] neon-accent mb-8 md:mb-16">
             Membership Tiers
@@ -65,7 +65,6 @@ export default function MemberSection() {
 
             return (
                 <div key={index} className="py-6 cursor-pointer select-none">
-                {/* Header */}
                 <div
                     className="flex items-center justify-between"
                     onClick={() => setOpenIndex(isOpen ? null : index)}
@@ -88,7 +87,6 @@ export default function MemberSection() {
                     </motion.span>
                 </div>
 
-                {/* Accordion Body */}
                 <AnimatePresence>
                     {isOpen && (
                     <motion.div
