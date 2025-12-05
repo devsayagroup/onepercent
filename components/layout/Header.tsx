@@ -122,7 +122,7 @@ export default function Header() {
       {/* Mobile Header */}
       <div className="md:hidden flex items-center justify-between px-6 py-4 backdrop-blur-sm">
         <Link href="/">
-          <Image src="/logo/white.png" height={50} width={50} alt="One Percent" />
+          <Image src="/logo/white.png" height={80} width={64} alt="One Percent" />
         </Link>
 
         {/* Hamburger */}

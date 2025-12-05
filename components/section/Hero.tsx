@@ -38,15 +38,16 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.button
-        onClick={() => {
-            const section = document.getElementById("about");
-            section?.scrollIntoView({ behavior: "smooth" });
-        }}
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.5, ease: "easeOut", delay: 1.2 }}
-        className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
-        >
+            aria-label="Scroll to About section"
+            onClick={() => {
+                const section = document.getElementById("about");
+                section?.scrollIntoView({ behavior: "smooth" });
+            }}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.5, ease: "easeOut", delay: 1.2 }}
+            className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
+            >
             <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}

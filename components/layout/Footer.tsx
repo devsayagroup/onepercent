@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="relative w-full bg-stone-950 text-white pt-24 pb-10 px-6 md:px-14 border-t border-white/10" id="footer">
       <div className="mx-auto grid grid-cols-1 md:grid-cols-2 justify-between gap-12 md:gap-16">
         <div className="flex gap-4 md:gap-12  items-center">
-            <Image src="/logo/white.png" height={100} width={100} alt="One Percent" />
+            <Image src="/logo/white.png" height={80} width={64} alt="One Percent" />
             <p className="text-sm md:text-md font-style neon-accent uppercase leading-relaxed max-w-xs">
                 Enter a world shaped for a rare circle. A space built for calm,
                 beauty, and refined taste.
