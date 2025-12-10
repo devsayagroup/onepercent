@@ -18,9 +18,9 @@ export default function HeroSection() {
             priority
             className="object-cover "
             />
-            {/* <Grain/> */}
         </motion.div>
         <div className="absolute inset-0 bg-black/40" />
+        <Grain/>
 
         <motion.div
             initial={{ opacity: 0, y: 20 }}
