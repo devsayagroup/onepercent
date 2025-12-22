@@ -9,10 +9,10 @@ export default function HeroSection() {
   const y = useTransform(scrollY, [0, 300], [0, 100]);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-black text-white flex items-center justify-center">
+    <section className="relative w-full h-screen md:px-20 overflow-hidden bg-black text-white flex items-center">
         <motion.div style={{ y }} className="absolute inset-0">
             <Image
-            src="/room/classic1.jpg" 
+            src="/Sign.JPG" 
             alt="1% Lounge Background"
             fill
             priority
@@ -26,13 +26,13 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
-            className="relative z-10  md:max-w-xl px-6 text-center"
+            className="relative z-10 md:max-w-xl px-6 text-left"
         >
             <h1 className="text-4xl md:text-7xl font-light font-style tracking-[0.06em] uppercase leading-[1.4] mb-4 neon-accent">
                 Enter the circle of 1%
             </h1>
 
-            <p className="text-sm w-[90%] md:w-[70%] mx-auto md:text-md leading-relaxed opacity-80">
+            <p className="text-sm w-[90%] md:w-[70%] md:text-md leading-relaxed opacity-80">
                 Step into a space shaped for people who appreciate <span className="neon-accent opacity-100">calm, beauty, and a higher standard of taste</span>.
             </p>
         </motion.div>

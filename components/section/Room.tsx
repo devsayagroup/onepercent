@@ -7,27 +7,27 @@ import Grain from "../ui/Grain";
 const rooms = [
   {
     name: "Pink Room",
-    image: "/room/pink1.jpg",
+    image: "/room/pink/Pi-7.JPG",
     span: "md:col-span-1",
   },
   {
     name: "Classic Room",
-    image: "/room/classic1.jpg",
+    image: "/room/classic/Cl-7.JPG",
     span: "md:col-span-1",
   },
   {
     name: "Japanese Room",
-    image: "/room/japanese1.jpg",
+    image: "/room/japanese/Jap-1.JPG",
     span: "md:col-span-1",
   },
   {
     name: "Chinese Room",
-    image: "/room/classic1.jpg",
+    image: "/room/chinese/Ch-3.JPG",
     span: "md:col-span-1",
   },
   {
     name: "Private Club",
-    image: "/room/classic1.jpg",
+    image: "/room/Inner-circle.png",
     span: "md:col-span-2", 
   },
 ];

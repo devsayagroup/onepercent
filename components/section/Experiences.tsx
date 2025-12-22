@@ -1,87 +1,3 @@
-// "use client";
-
-// import { motion } from "framer-motion";
-// import Image from "next/image";
-
-// const experiences = [
-//   {
-//     title: "Chef’s Signature Tasting",
-//     image: "/experiences/tasting.jpg",
-//     description:
-//       "A multi-course culinary journey curated exclusively for intimate evenings.",
-//   },
-//   {
-//     title: "Romantic Dinner",
-//     image: "/experiences/romantic.jpg",
-//     description:
-//       "Soft lighting, curated ambience, and private seating designed for two.",
-//   },
-//   {
-//     title: "Private Lounge Experience",
-//     image: "/experiences/lounge.jpg",
-//     description:
-//       "Premium service and exclusive spaces crafted for elevated privacy.",
-//   },
-// ];
-
-// export default function ExperiencesSection() {
-//   return (
-//     <section className="relative w-full py-32 bg-black text-white overflow-hidden">
-//       <div className="max-w-7xl mx-auto px-6 md:px-14">
-
-//         {/* Section Heading */}
-//         <motion.h2
-//           initial={{ opacity: 0, y: 20 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true }}
-//           transition={{ duration: 1 }}
-//           className="text-left text-2xl md:text-5xl font-style font-light tracking-[0.06em] neon-accent mb-16"
-//         >
-//           Experiences
-//         </motion.h2>
-
-//         {/* Experiences Grid */}
-//         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-//           {experiences.map((exp, i) => (
-//             <motion.div
-//               key={i}
-//               initial={{ opacity: 0, y: 20 }}
-//               whileInView={{ opacity: 1, y: 0 }}
-//               viewport={{ once: true }}
-//               transition={{ duration: 0.8, delay: i * 0.15 }}
-//               className="group relative overflow-hidden"
-//             >
-//               {/* Image */}
-//               <div className="relative h-[360px] w-full rounded-lg overflow-hidden">
-//                 <Image
-//                   src={exp.image}
-//                   alt={exp.title}
-//                   fill
-//                   className="
-//                     object-cover grayscale group-hover:grayscale-0 
-//                     transition-all duration-700 ease-out 
-//                     scale-100 group-hover:scale-105
-//                   "
-//                 />
-//               </div>
-
-//               {/* Text */}
-//               <div className="mt-6">
-//                 <h3 className="text-xl font-light tracking-[0.12em] uppercase mb-2">
-//                   {exp.title}
-//                 </h3>
-//                 <p className="text-sm opacity-70 leading-relaxed tracking-wide">
-//                   {exp.description}
-//                 </p>
-//               </div>
-//             </motion.div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -91,19 +7,19 @@ import Grain from "../ui/Grain";
 const experiences = [
   {
     title: "Signature Tasting",
-    image: "/room/classic1.jpg",
+    image: "/Bottle.JPG",
     description:
       "A curated culinary moment crafted for those who appreciate subtlety, balance, and depth.",
   },
   {
     title: "Romantic Evening",
-    image: "/room/pink1.jpg",
+    image: "/Romantic.JPG",
     description:
       "Soft lighting, intimate ambience, and a space designed to feel timeless.",
   },
   {
     title: "Private Lounge Experience",
-    image: "/room/japanese1.jpg",
+    image: "/Gate-2.JPG",
     description:
       "Exclusive service and a secluded atmosphere created for elevated privacy.",
   },
