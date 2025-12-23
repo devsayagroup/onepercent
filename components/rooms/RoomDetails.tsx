@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Room } from "@/lib/room-data";
+// import { TypewriterEffect } from "../ui/TypewriterEffect";
 
 export default function RoomDetails({ room }: { room: Room }) {
   return (
@@ -16,6 +17,14 @@ export default function RoomDetails({ room }: { room: Room }) {
         <p className="text-sm md:text-2xl font-style font-light leading-relaxed opacity-80">
           {room.description}
         </p>
+        {/* <TypewriterEffect
+            words={[
+                {
+                    text: {room.descriptio},
+                },
+            ]}
+            className="mt-6 text-sm md:text-2xl leading-relaxed opacity-80 font-light font-style neon-accent"
+        /> */}
 
         <p className="mt-6 text-xs uppercase tracking-widest opacity-50">
           Mood: {room.mood}

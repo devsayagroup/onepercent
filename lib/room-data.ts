@@ -168,7 +168,7 @@ export const rooms: Room[] = [
     gallery: [
       "/room/innercircle/Ic-1.JPG",
       "/room/innercircle/Ic-2.JPG",
-      "/room/innercircle/Ic-3.JPG",
+      "/room/innercircle/Ic-3.jpg",
     ],
     mood: "Exclusive, private, elevated",
 
