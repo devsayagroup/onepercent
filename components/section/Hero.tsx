@@ -12,27 +12,27 @@ export default function HeroSection() {
     <section className="relative w-full h-screen md:px-20 overflow-hidden bg-black text-white flex items-center">
         <motion.div style={{ y }} className="absolute inset-0">
             <Image
-            src="/Sign.JPG" 
+            src="/Stairs.JPG" 
             alt="1% Lounge Background"
             fill
             priority
             className="object-cover "
             />
         </motion.div>
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/55" />
         <Grain/>
 
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
-            className="relative z-10 md:max-w-xl px-6 text-left"
+            className="relative z-10 md:max-w-xl mx-auto px-6 mt-8 md:mt-12 text-center"
         >
-            <h1 className="text-4xl md:text-7xl font-light font-style tracking-[0.06em] uppercase leading-[1.4] mb-4 neon-accent">
+            <h1 className="text-[2.8em] md:text-7xl font-light font-style tracking-[0.06em] uppercase leading-[1.4] mb-4 neon-accent">
                 Enter the circle of 1%
             </h1>
 
-            <p className="text-sm w-[90%] md:w-[70%] md:text-md leading-relaxed opacity-80">
+            <p className="text-sm mx-auto w-[90%] md:w-[70%] md:text-md leading-relaxed opacity-80">
                 Step into a space shaped for people who appreciate <span className="neon-accent opacity-100">calm, beauty, and a higher standard of taste</span>.
             </p>
         </motion.div>
@@ -46,7 +46,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, ease: "easeOut", delay: 1.2 }}
-            className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
+            className="absolute bottom-15 md:bottom-10 left-1/2 -translate-x-1/2 z-20 cursor-pointer"
             >
             <motion.div
                 animate={{ y: [0, 10, 0] }}
