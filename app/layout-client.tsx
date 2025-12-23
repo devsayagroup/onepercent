@@ -36,7 +36,6 @@ export default function ClientLayout({
         ) : (
             <>
             <Header />
-            
             <SmoothScroll>{children}</SmoothScroll>
             <Footer />
             </>

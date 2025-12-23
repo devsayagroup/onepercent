@@ -18,7 +18,7 @@ export default function RootLayout({
               name: "One Percent Lounge",
               description:
                 "Luxury private lounge in Jakarta with exclusive rooms, refined ambiance, and curated member experiences.",
-              image: "https://onepercentlounge.id/logo/onepercent.png",
+              image: "https://onepercentlounge.id/logo/onepercentzoom.png",
               url: "https://onepercentlounge.id",
               telephone: "+62-813-3150-505",
               address: {
@@ -64,13 +64,13 @@ export const metadata = {
     title: "One Percent Lounge | Luxury Private Lounge in Jakarta",
     description:
       "Step inside the circle of 1%. Discover private rooms, exclusive lounge experience and high-end service in the heart of Jakarta.",
-    images: ["/logo/onepercent.png"],
+    images: ["/logo/onepercentzoom.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "One Percent Lounge",
     description: "Luxury Private Lounge in Jakarta",
-    images: ["/logo/onepercent.png"],
+    images: ["/logo/onepercentzoom.png"],
   },
   robots: {
     index: true,
