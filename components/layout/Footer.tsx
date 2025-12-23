@@ -40,10 +40,10 @@ export default function Footer() {
 
                     <li>
                     <Link
-                        href="/#members"
+                        href="/#experiences"
                         className="hover:opacity-100 transition-opacity cursor-pointer block"
                     >
-                        Members
+                        Experiences
                     </Link>
                     </li>
 
@@ -70,8 +70,12 @@ export default function Footer() {
 
           <div>
             <h4 className="text-sm tracking-widest opacity-80 uppercase font-style mb-4">Contact</h4>
-            <p className="text-sm opacity-70">+62 812 0000 0000</p>
-            <p className="text-sm opacity-70">info@onepercentlounge.id</p>
+            <Link href="https://wa.me/6281214144883" target="_blank">
+              <p className="text-sm opacity-70">+62 812 1414 4883</p>
+            </Link>
+            <Link href="mailto:info@onepercentlounge.id" target="_blank">
+              <p className="text-sm opacity-70">info@onepercentlounge.id</p>
+            </Link>
           </div>
         </div>
       </div>

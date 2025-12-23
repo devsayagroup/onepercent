@@ -41,7 +41,7 @@ export default function Header() {
         </Link>
 
         <div className="flex items-center gap-6 text-xs font-style tracking-widest">
-          <Link href="tel:+33133150505" className="opacity-80 hover:opacity-100 transition">
+          <Link href="https://wa.me/6281214144883" className="opacity-80 hover:opacity-100 transition">
             CALL US
           </Link>
         </div>
@@ -95,7 +95,7 @@ export default function Header() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="mt-auto text-lg tracking-widest opacity-80 font-style"
             >
-              <Link href="tel:+33133150505">CALL US</Link>
+              <Link href="https://wa.me/6281214144883">CALL US</Link>
             </motion.div>
           </motion.div>
         )}
