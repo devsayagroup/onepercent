@@ -44,8 +44,8 @@ export const rooms: Room[] = [
     subtitle: "Soft Energy, Intimate Mood",
     description:
       "A refined space wrapped in warmth and subtle color. Designed for intimate conversations, relaxed evenings, and moments that feel personal.",
-    coverImage: "/room/pink/Pi-1.JPG",
-    gallery: ["/room/pink/Pi-1.JPG", "/room/pink/Pi-4.JPG", "/room/pink/Pi-6.JPG"],
+    coverImage: "/room/pink/Pi-9.jpg",
+    gallery: ["/room/pink/Pi-10.jpg", "/room/pink/Pi-12.jpg", "/room/pink/Pi-11.jpg"],
     mood: "Gentle, warm, expressive",
 
     capacity: "Up to 12 pax",

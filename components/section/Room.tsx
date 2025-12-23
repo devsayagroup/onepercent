@@ -8,7 +8,7 @@ const rooms = [
   {
     name: "Pink Room",
     slug: "pink-room",
-    image: "/room/pink/Pi-7.JPG",
+    image: "/room/pink/Pi-11.jpg",
     span: "md:col-span-1",
   },
    {

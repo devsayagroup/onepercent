@@ -32,7 +32,7 @@ export default function HeroSection() {
                 Enter the circle of 1%
             </h1>
 
-            <p className="text-sm mx-auto w-[90%] md:w-[70%] md:text-md leading-relaxed opacity-80">
+            <p className="text-sm mx-auto w-[90%] md:w-[80%] md:text-md leading-loose tracking-[0.05em] opacity-80">
                 Step into a space shaped for people who appreciate <span className="neon-accent opacity-100">calm, beauty, and a higher standard of taste</span>.
             </p>
         </motion.div>
