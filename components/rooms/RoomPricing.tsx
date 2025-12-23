@@ -71,7 +71,7 @@ export default function RoomPricing({ room }: Props) {
           className="mt-16 flex flex-col md:items-center sm:flex-row gap-6"
         >
           <Link
-            href={`https://wa.me/62895428289088?text=Hi%201%%20Lounge,%20I%20would%20like%20to%20reserve%20the%20${encodeURIComponent(
+            href={`https://wa.me/6281214144883?text=Hi%201%%20Lounge,%20I%20would%20like%20to%20reserve%20the%20${encodeURIComponent(
               room.name
             )}.`}
             target="_blank"

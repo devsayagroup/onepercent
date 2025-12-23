@@ -20,7 +20,7 @@ export default function RootLayout({
                 "Luxury private lounge in Jakarta with exclusive rooms, refined ambiance, and curated member experiences.",
               image: "https://onepercentlounge.id/logo/onepercentzoom.png",
               url: "https://onepercentlounge.id",
-              telephone: "+62-813-3150-505",
+              telephone: "+62-812-1414-4883",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Entertainment District, Jl HR Jl. Rasuna Said, Salembaran, Kec. Kosambi",
