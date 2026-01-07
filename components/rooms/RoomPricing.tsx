@@ -137,9 +137,9 @@ export default function RoomPricing({ room }: Props) {
           </p>
         </motion.div>
 
-        <span className="inline-flex text-xs tracking-widest uppercase px-4 py-1 border border-white/20 mb-6">
+        {/* <span className="inline-flex text-xs tracking-widest uppercase px-4 py-1 border border-white/20 mb-6">
           Soft Opening Promo
-        </span>
+        </span> */}
 
         <div className="border border-white/10 px-6 py-8 space-y-6">
 
@@ -151,14 +151,14 @@ export default function RoomPricing({ room }: Props) {
 
               <div className="flex flex-col md:flex-row md:items-end md:gap-4">
                 <span className="text-3xl md:text-4xl font-light neon-accent mb-1">
-                  {formatPrice(room.pricing.afterDiscount)}
+                  {formatPrice(room.pricing.core)}
                 </span>
 
-                {room.pricing.core > 0 && (
+                {/* {room.pricing.core > 0 && (
                   <span className="text-sm line-through opacity-40 mb-1">
                     {formatPrice(room.pricing.core)}
                   </span>
-                )}
+                )} */}
               </div>
             </div>
           </div>
@@ -171,11 +171,11 @@ export default function RoomPricing({ room }: Props) {
           {room.pricing.additionalHour.core > 0 && (
             <div className="pt-6 border-t border-white/10 text-sm opacity-70">
               Additional hour:&nbsp;
-              <span className="line-through opacity-50 mr-2">
+              {/* <span className="line-through opacity-50 mr-2">
                 {formatPrice(room.pricing.additionalHour.core)}
-              </span>
+              </span> */}
               <span className="neon-accent">
-                {formatPrice(room.pricing.additionalHour.afterDiscount)}
+                {formatPrice(room.pricing.additionalHour.core)}
               </span>
             </div>
           )}
